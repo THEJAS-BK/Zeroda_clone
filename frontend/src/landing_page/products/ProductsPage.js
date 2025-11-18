@@ -1,17 +1,19 @@
 import React from "react";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import Brokerage from "./Brokerage";
 import Hero from "./Hero";
-function PricingPage() {
+import LeftSection from "./LeftSection";
+import RightSection from "./RightSection";
+function ProductPage() {
   return (
     <>
       <Navbar />
       <Hero />
-      <Brokerage />
+      <LeftSection />
+      <RightSection />
       <Footer />
     </>
   );
 }
 
-export default PricingPage;
+export default ProductPage;

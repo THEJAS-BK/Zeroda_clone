@@ -1,0 +1,15 @@
+.changeBlue{
+    color:blue
+}
+.para{
+    color:#666;
+    font-size:1rem;
+}
+.head-size{
+    font-size:1.25rem;
+    font-weight: 500;
+    opacity: 0.95;
+}
+.anchorTag{
+    text-decoration: none !important;
+}
