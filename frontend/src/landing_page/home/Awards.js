@@ -3,7 +3,7 @@ export default function Awards() {
   return (
     <div className="container mt-5 mb-5">
       <div className="row">
-        <div className="col-5">
+        <div className="col-6 p-4">
           <h3 className="mt-4 offset-1">Trust with confidence</h3>
           <div>
             <p className="mt-5 head-size offset-1">Customer-first always</p>
