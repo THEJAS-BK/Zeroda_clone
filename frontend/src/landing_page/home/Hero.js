@@ -17,7 +17,7 @@ function Hero() {
           style={{ width: "15%", margin: "0 auto",fontWeight:"600",opacity:"0.75"}}
           className="btn btn-primary fs-5 mt-5"
         >
-          SignUp now
+          SignUp for free
         </button>
       </div>
     </div>
