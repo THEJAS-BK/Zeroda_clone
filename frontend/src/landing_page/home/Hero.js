@@ -5,8 +5,8 @@ function Hero() {
         <img
           src="media/images/homeHero.svg"
           alt="heroImage"
-          className="mb-5 col-8 offset-2 mt-5"
-          style={{ height: "45vh" }}
+          className="mb-5 col-8 offset-2"
+          style={{ height: "45vh",marginTop:"9rem" }}
         />
         <h3 className="mt-4">Invest in everything</h3>
         <p className="mt-2 fs-5">

@@ -14,3 +14,18 @@ code {
 .anchorTag {
   text-decoration: none !important;
 }
+.nav-link{
+  margin-left:20px;
+}
+.nav-link:hover,.removeBlue:hover{
+  color:blue;
+}
+.removeBlue{
+  color:grey;
+}
+.footerText{
+  font-size:0.75rem;
+}
+.footerAnchorMargin{
+  margin-left:2px;
+}
