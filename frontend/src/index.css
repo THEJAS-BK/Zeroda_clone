@@ -29,3 +29,16 @@ code {
 .footerAnchorMargin{
   margin-left:2px;
 }
+.paraText{
+  font-size:1.1rem;
+}
+.TeamPhotos {
+  border-radius: 50%;
+  height: 15rem;
+  width:15rem;
+  margin:0 auto;
+}
+.FounderPhoto{
+  border-radius:50%;
+  height:19rem;
+}
