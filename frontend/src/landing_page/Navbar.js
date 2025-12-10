@@ -2,7 +2,7 @@ import {Link} from "react-router-dom";
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg py-3 position-fixed"
+      className="navbar navbar-expand-lg py-3 mb-4cha"
       style={{ backgroundColor: "#fff" }}
     >
       <div className="container">
