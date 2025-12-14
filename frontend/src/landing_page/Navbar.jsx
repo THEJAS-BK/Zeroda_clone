@@ -3,7 +3,7 @@ function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg py-3 mb-4cha"
-      style={{ backgroundColor: "#fff" }}
+      style={{ backgroundColor: "#fff",position:"sticky",top:"0" }}
     >
       <div className="container">
         <Link className="navbar-brand" style={{ marginLeft: "12rem" }} to="/">
