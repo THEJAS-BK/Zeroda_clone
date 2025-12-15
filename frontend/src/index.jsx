@@ -10,10 +10,12 @@ import {BrowserRouter,Routes,Route} from "react-router-dom";
 import NotFound from "./landing_page/NotFound";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
+import ScrollToTop from "./ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
+  <ScrollToTop/>
     <Navbar />
     <Routes>
       <Route path="/" element={<HomePage />} />
