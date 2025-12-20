@@ -1,0 +1,46 @@
+table,thead,th,tbody,td,tr {
+    border:none !important;
+    outline:none !important;
+    
+}
+thead,tbody{
+    border:1px solid rgba(0,0,0,0.2) !important
+}
+
+th{
+    font-weight:400;
+}
+.table td,
+.table th {
+    padding: 1rem 1.25rem;
+}
+.table td+td,
+.table th+th {
+    padding-left: 1.5rem;
+}
+td {
+    font-size: .875rem;
+}
+
+.colorBlue{
+    color:blue;
+    margin-bottom:0;
+     padding-bottom:1rem;
+}
+.BrokeHead {
+    color: grey;
+    border-bottom:3px solid blue !important;
+    margin-bottom:0;
+    padding-bottom:1rem;
+}
+li,p{
+    font-size: 0.75rem;
+    margin-top:0.2rem
+}
+h5{
+    color:rgb(83, 78, 78);
+    font-size:1rem;
+}
+h1{
+    font-size: 1.5rem;
+}
