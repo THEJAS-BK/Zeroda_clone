@@ -27,27 +27,27 @@ function Navbar() {
         <div className="collapse navbar-collapse " id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link" style={{fontSize:"1.1rem"}} aria-current="page" to="/signup">
+              <Link className="nav-link" style={{fontSize:"1rem"}} aria-current="page" to="/signup">
                 Signup
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" style={{fontSize:"1.1rem"}} to="/about">
+              <Link className="nav-link" style={{fontSize:"1rem"}} to="/about">
                 About
               </Link>
             </li>
             <li>
-              <Link className="nav-link" style={{fontSize:"1.1rem"}} to="/products">
+              <Link className="nav-link" style={{fontSize:"1rem"}} to="/products">
                 Products
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" style={{fontSize:"1.1rem"}} aria-disabled="true" to="/pricing">
+              <Link className="nav-link" style={{fontSize:"1rem"}} aria-disabled="true" to="/pricing">
                 Pricing
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" style={{fontSize:"1.1rem"}} aria-disabled="true" to="/support">
+              <Link className="nav-link" style={{fontSize:"1rem"}} aria-disabled="true" to="/support">
                 Support
               </Link>
             </li>
