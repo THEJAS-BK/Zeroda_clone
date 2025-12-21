@@ -1,10 +1,12 @@
-import Hero from "./Hero";
-import RaiseTicket from "./RaiseTicket";
+import OtherInfo from "./OtherInfo";
+import SupportPortal from "./SupportPortal";
+import "./Support.css";
 function SupportPage() {
   return (
     <>
-      <Hero />
-      <RaiseTicket />
+  <SupportPortal/>
+  <OtherInfo/>
+   
     </>
   );
 }

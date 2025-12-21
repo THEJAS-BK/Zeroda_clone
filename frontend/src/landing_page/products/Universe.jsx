@@ -2,7 +2,7 @@ export default function Universe(){
     return(
         <div className="container">
             <div className="row">
-                <div className="col-10 offset-2">
+                <div className="col-10 offset-1">
                     <h2 className="text-center my-5">The Zerodha Universe</h2>
                     <p className="text-center mb-5">Extend your trading and investment experience even further with our partner platforms</p>  
                     <div className="d-flex flex-wrap justify-content-end">

@@ -1,0 +1,43 @@
+.removeBBlue:hover {
+    color: black;
+}
+summary{
+    list-style-type: none;
+}
+summary::-webkit-details-marker {
+    display: none;
+}
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.group{
+    padding:1.25rem;
+    border:1px solid rgba(0,0,0,0.1);
+}
+.title{
+    font-size:1.25rem;
+    font-weight: 600;
+    margin-left:20px;
+}
+
+.icon-blue{
+    color:#007bff;
+    font-size:1.5rem;
+}
+.dropDownContent{
+    margin-top:1rem;
+    padding-left:2.5rem;
+    font-size:1rem;
+    color:rgba(0,0,0,0.7);
+    color:blue;
+}
+.left i{
+    transition: transform 0.3s ease-in-out;
+}
+details[open] .left>i{
+    transition:transform 0.3s ease-in-out;
+    transform:rotate(180deg);
+}
