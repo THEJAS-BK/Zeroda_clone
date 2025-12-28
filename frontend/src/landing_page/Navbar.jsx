@@ -1,7 +1,15 @@
+import { useState } from "react";
 import {Link} from "react-router-dom";
+import ThreeDots from "./ThreeDots";
 function Navbar() {
+  let [active,setActive]=useState(false);
+  let Clicked=()=>{
+    setActive(!active);
+  }
   return (
-    <nav
+    <> 
+    {active && <ThreeDots />}
+       <nav
       className="navbar navbar-expand-lg py-3 mb-4cha"
       style={{ backgroundColor: "#fff",position:"sticky",top:"0" }}
     >
@@ -51,20 +59,22 @@ function Navbar() {
                 Support
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={Clicked}>
               <i
                 style={{
                   marginTop: "14%",
                   marginLeft: "40px",
                   fontSize: "1.5rem",
+                  position: "relative",
                 }}
-                class="fa-solid fa-bars"
+                className="fa-solid fa-bars"
               ></i>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    </>
   );
 }
 
