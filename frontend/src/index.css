@@ -49,3 +49,19 @@ code {
   height:2rem;
   text-align: center;
 }
+/* Three dots Navbar  */
+.three-dots {
+    position: absolute;
+      width: 43vw;
+      height: 44vh;
+      background-color: #fff;
+      top: 87px;
+      right: 89px;
+      z-index: 1000;
+        border-radius: 1px;
+          box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, .1);
+}
+.ThreeSpacingPara{
+  margin:0;
+  padding:4px;
+}
