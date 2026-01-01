@@ -1,7 +1,7 @@
 import { useState } from "react";
 import {Link} from "react-router-dom";
 import ThreeDots from "./ThreeDots";
-function Navbar() {
+export default function Navbar() {
   let [active,setActive]=useState(false);
   let Clicked=()=>{
     setActive(!active);
@@ -78,4 +78,3 @@ function Navbar() {
   );
 }
 
-export default Navbar;
