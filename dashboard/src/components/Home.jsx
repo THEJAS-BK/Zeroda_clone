@@ -1,9 +1,15 @@
-import DashBoard from "./DashBoard";
+import React from "react";
 
-export default function Home(){
-    return (
-      <>
-        <DashBoard />
-      </>
-    );
-}
+import Dashboard from "./Dashboard";
+import TopBar from "./TopBar";
+
+const Home = () => {
+  return (
+    <>
+      <TopBar />
+      <Dashboard />
+    </>
+  );
+};
+
+export default Home;
