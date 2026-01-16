@@ -1,4 +1,3 @@
-import React from "react";
 import { Route, Routes } from "react-router-dom";
 
 import Apps from "./Apps";
@@ -11,7 +10,7 @@ import Summary from "./Summary";
 import WatchList from "./WatchList";
 import { GeneralContextProvider } from "./GeneralContext";
 
-const Dashboard = () => {
+export default function Dashboard() {
   return (
     <div className="dashboard-container">
       <GeneralContextProvider>
@@ -31,4 +30,4 @@ const Dashboard = () => {
   );
 };
 
-export default Dashboard;
+

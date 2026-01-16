@@ -4,7 +4,7 @@ import { VerticalGraph } from "./VerticalGraph";
 
 // import { holdings } from "../data/data";
 
-const Holdings = () => {
+export default function Holdings(){
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
@@ -108,4 +108,4 @@ const Holdings = () => {
   );
 };
 
-export default Holdings;
+

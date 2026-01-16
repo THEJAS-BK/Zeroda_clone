@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Menu = () => {
+export default function Menu() {
   const [selectedMenu, setSelectedMenu] = useState(0);
   const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
 
@@ -99,4 +98,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+
