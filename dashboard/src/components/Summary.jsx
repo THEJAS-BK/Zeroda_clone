@@ -1,6 +1,4 @@
-import React from "react";
-
-const Summary = () => {
+export default function Summary() {
   return (
     <>
       <div className="username">
@@ -61,4 +59,4 @@ const Summary = () => {
   );
 };
 
-export default Summary;
+
