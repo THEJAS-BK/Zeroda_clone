@@ -1,7 +1,6 @@
-import React from "react";
 import { Link } from "react-router-dom";
 
-const Orders = () => {
+export default function Orders() {
   return (
     <div className="orders">
       <div className="no-orders">
@@ -15,4 +14,4 @@ const Orders = () => {
   );
 };
 
-export default Orders;
+

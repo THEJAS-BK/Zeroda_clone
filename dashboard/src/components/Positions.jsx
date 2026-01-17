@@ -1,6 +1,6 @@
 import { positions } from "../data/data";
 
-const Positions = () => {
+export default function Positions() {
   return (
     <>
       <h3 className="title">Positions ({positions.length})</h3>
@@ -43,4 +43,4 @@ const Positions = () => {
   );
 };
 
-export default Positions;
+

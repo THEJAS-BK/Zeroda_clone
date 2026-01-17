@@ -1,6 +1,6 @@
 
-const Apps = () => {
+export default function() {
   return <h1>Apps</h1>;
 };
 
-export default Apps;
+

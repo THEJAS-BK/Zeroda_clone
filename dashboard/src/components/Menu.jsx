@@ -3,19 +3,17 @@ import { Link } from "react-router-dom";
 
 export default function Menu() {
   const [selectedMenu, setSelectedMenu] = useState(0);
-  const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
+  const [isDropDownSelected, setIsDropDownSelected] = useState(false);
 
   const handleMenuClick = (index) => {
     setSelectedMenu(index);
   };
-
-  const handleProfileClick = (index) => {
-    setIsProfileDropdownOpen(!isProfileDropdownOpen);
+  const handleSelectedDropDown = () => {
+    setIsDropDownSelected(!isDropDownSelected);
   };
 
   const menuClass = "menu";
   const activeMenuClass = "menu selected";
-
   return (
     <div className="menu-container">
       <img src="logo.png" style={{ width: "50px" }} />
@@ -68,7 +66,7 @@ export default function Menu() {
           <li>
             <Link
               style={{ textDecoration: "none" }}
-              to="funds"
+              to="/funds"
               onClick={() => handleMenuClick(4)}
             >
               <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
@@ -80,22 +78,21 @@ export default function Menu() {
             <Link
               style={{ textDecoration: "none" }}
               to="/apps"
-              onClick={() => handleMenuClick(6)}
+              onClick={() => handleMenuClick(5)}
             >
-              <p className={selectedMenu === 6 ? activeMenuClass : menuClass}>
+              <p className={selectedMenu === 5 ? activeMenuClass : menuClass}>
                 Apps
               </p>
             </Link>
           </li>
         </ul>
         <hr />
-        <div className="profile" onClick={handleProfileClick}>
+        <div className="profile" onClick={handleSelectedDropDown}>
           <div className="avatar">ZU</div>
           <p className="username">USERID</p>
         </div>
+        {isDropDownSelected}
       </div>
     </div>
   );
-};
-
-
+}
