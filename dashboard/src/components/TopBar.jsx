@@ -1,5 +1,4 @@
 import Menu from "./Menu";
-
 export default function TopBar() {
   return (
     <div className="topbar-container">
